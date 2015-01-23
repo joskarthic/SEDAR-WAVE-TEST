@@ -130,7 +130,7 @@ function formsubmit() {
 			// AJAX code to submit form.
 			$.ajax({
 				type: "POST",
-				url: "http://wavetest.elasticbeanstalk.com/app/ajax_execution.php",
+				url: "http://wave.elasticbeanstalk.com/app/ajax_execution.php",
 				data :  'uname='+name+'&password='+password ,
 				dataType: "json",
 				processData: false,
